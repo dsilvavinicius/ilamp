@@ -110,7 +110,6 @@ public class ImpBehaviour : MonoBehaviour
             }
         }
 
-
         if (!ImpPlugin.Imp_LoadInputFiles(FileName2d, FileNameNd))
         {
             Debug.LogError("Could not load input files: " + FileName2d + ' ' + FileNameNd);
@@ -161,7 +160,6 @@ public class ImpBehaviour : MonoBehaviour
         impUI = (ImpUI)FindObjectOfType(typeof(ImpUI));
         if (impUI)
             impUI.Setup(vertices2d, MinCoords, MaxCoords);
-
     }
 
 
